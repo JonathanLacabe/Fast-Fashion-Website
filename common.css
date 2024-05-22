@@ -12,7 +12,7 @@ img{-ms-interpolation-mode:bicubic}
 .wsite-editor .weebly-form-input,
 .wsite-editor .wsite-form-input,
 .wsite-editor .wsite-search-input {
-    background: #FFFFFF url(https://www.penisland.net/files/images/common/form_input_bg.gif) repeat-x scroll center top;
+    background: #FFFFFF url(buttons/form_input_bg.gif) repeat-x scroll center top;
     border-color: #7C7C7C #C3C3C3 #DDDDDD;
     border-style: solid;
     border-width: 1px;
@@ -25,7 +25,7 @@ img{-ms-interpolation-mode:bicubic}
 .wsite-editor .wsite-button {
     display: inline-block;
     padding: 0 15px 0 0;
-    background: url(https://www.penisland.net/files/images/common/buttons/small_grey.png) no-repeat 100% -100px;
+    background: url(buttons/small_grey.png) no-repeat 100% -100px;
     text-decoration: none !important;
     font-weight: normal !important;
     font-size: 14px !important;
@@ -36,7 +36,7 @@ img{-ms-interpolation-mode:bicubic}
 .wsite-button-inner,
 .wsite-editor .wsite-button-inner {
     float: left;
-    background: url(https://www.penisland.net/files/images/common/buttons/small_grey.png) no-repeat 0 -1px;
+    background: url(buttons/small_grey.png) no-repeat 0 -1px;
     padding: 0 5px 0 20px;
     height: 32px;
     line-height: 32px;
@@ -67,7 +67,7 @@ img{-ms-interpolation-mode:bicubic}
 .wsite-button-highlight .wsite-button-inner,
 .wsite-editor .wsite-button-highlight,
 .wsite-editor .wsite-button-highlight .wsite-button-inner {
-    background-image: url(https://www.penisland.net/files/images/common/buttons/small_blue.png);
+    background-image: url(buttons/small_blue.png);
     }
 
 .wsite-button-highlight,
@@ -78,7 +78,7 @@ img{-ms-interpolation-mode:bicubic}
 .wsite-button-large,
 .wsite-editor .wsite-button-large {
     font-size: 18px !important;
-    background: url(https://www.penisland.net/files/images/common/buttons/large_grey.png?2) no-repeat 100% -130px;
+    background: url(buttons/large_grey.png) no-repeat 100% -130px;
     }
 
 .wsite-button-large .wsite-button-inner,
@@ -86,7 +86,7 @@ img{-ms-interpolation-mode:bicubic}
     height: 42px;
     line-height: 42px;
     padding: 0 10px 0 25px;
-    background: url(https://www.penisland.net/files/images/common/buttons/large_grey.png?2) no-repeat 0 -1px;
+    background: url(buttons/large_grey.png) no-repeat 0 -1px;
     }
 
 .wsite-button-large:hover,
@@ -113,7 +113,7 @@ img{-ms-interpolation-mode:bicubic}
 .wsite-button-large.wsite-button-highlight .wsite-button-inner,
 .wsite-editor .wsite-button-large.wsite-button-highlight,
 .wsite-editor .wsite-button-large.wsite-button-highlight .wsite-button-inner {
-    background-image: url(https://www.penisland.net/files/images/common/buttons/large_blue.png);
+    background-image: url(buttons/large_blue.png);
     }
 
 
@@ -140,7 +140,7 @@ img{-ms-interpolation-mode:bicubic}
     vertical-align: top;
     width: 34px;
     height: 26px;
-    background: url(https://www.penisland.net/files/images/common/search_button.png) no-repeat;
+    background: url(buttons/search_button.png) no-repeat;/*MUST ADD*/
     cursor: pointer;
     }
 
@@ -160,7 +160,7 @@ img{-ms-interpolation-mode:bicubic}
     margin: 0 1px;
     width: 24px;
     height: 24px;
-    background: url(https://www.penisland.net/files/images/common/social_icons.png) no-repeat;
+    background: url(buttons/social_icons.png) no-repeat;
     }
 
 .wsite-social-facebook,
@@ -412,6 +412,8 @@ img{-ms-interpolation-mode:bicubic}
 
 
 /**************** Blog Comment Style  ****************/
+/*Only here is hotlinking allowed, because the owners
+of the editmysite domain explicitly permit it.*/
 
 .blog-button {
     font-family: 'Helvetica Neue', Helvetica, Arial;
@@ -977,15 +979,15 @@ img{-ms-interpolation-mode:bicubic}
 #lightbox2 #prevLink, #lightbox2 #nextLink{
   width: 49%;
   height: 100%;
-  background: transparent url(https://www.penisland.net/files/images/common/images/blank.gif) no-repeat; /* Trick IE into showing hover */
+  background: transparent url(assets/blank.gif) no-repeat; /* Trick IE into showing hover */
   display: block;
   }
 #lightbox2 #prevLink { left: 0; float: left;}
 #lightbox2 #nextLink { right: 0; float: right;}
 #lightbox2 #prevLink { left: 0; float: left;}
 #lightbox2 #nextLink { right: 0; float: right;}
-#lightbox2 #prevLink:hover, #lightbox2 #prevLink:visited:hover { background: url(https://www.penisland.net/files/images/common/libraries/lightbox202/images/prevlabel.gif) left 15% no-repeat; }
-#lightbox2 #nextLink:hover, #lightbox2 #nextLink:visited:hover { background: url(https://www.penisland.net/files/images/common/libraries/lightbox202/images/nextlabel.gif) right 15% no-repeat; }
+#lightbox2 #prevLink:hover, #lightbox2 #prevLink:visited:hover { background: url(lightbox/prevlabel.gif) left 15% no-repeat; }
+#lightbox2 #nextLink:hover, #lightbox2 #nextLink:visited:hover { background: url(lightbox/nextlabel.gif) right 15% no-repeat; }
 
 
 #lightbox2 #imageDataContainer{
@@ -1630,7 +1632,7 @@ hr.styled-hr {
 
 /* search input */
 #wsite-search-query {
-  background: url('https://www.penisland.net/files/images/common/search-input-bg.html') repeat-x top #fff;
+  background: url('buttons/search-input-bg.png') repeat-x top #fff;
   border: 1px solid #b2b2b2;
   font-size: 1.75em;
   margin-left: 2px;
@@ -1644,7 +1646,7 @@ hr.styled-hr {
 
 /* serach input submit */
 #wsite-search-submit {
-  background: url('https://www.penisland.net/files/images/common/magnifying-glass.png') no-repeat 10px center;
+  background: url('buttons/magnifying-glass.png') no-repeat 10px center;
   border: 0;
   border-left: 1px solid #a8a8a8;
   cursor: pointer;
@@ -1784,7 +1786,7 @@ hr.styled-hr {
 }
 
 #wsite-search-pagenav a {
-  background: url('https://www.penisland.net/files/images/common/search-pagination-bg.png') repeat-x left -30px;
+  background: url('buttons/search-pagination-bg.png') repeat-x left -30px;
   border: 1px solid #d4d4d5;
   border-radius: 2px;
   color: #666;

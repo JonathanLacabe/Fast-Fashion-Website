@@ -124,7 +124,7 @@ body {
   font: 12px Arial, sans-serif;
   color: #646464;
   height: 100%;
-  background: url(bodybg.jpg) 50% 0;
+  background: url(assets/bodybg.jpg) 50% 0;
 }
 
 a,
@@ -149,7 +149,7 @@ a:active {
   margin: 0pt auto;
   width: 1132px;
   height: 100%;
-  background: url(https://www.penisland.net/files/theme/wrapperbg.png?825011) no-repeat;
+  background: url(assets/wrapperbg.png) no-repeat;
 }
 
 #container {
@@ -187,7 +187,7 @@ a:active {
   display: inline-block;
   overflow: hidden;
   text-indent: -9999px;
-  background: url(https://www.penisland.net/files/theme/socials.png?825011) no-repeat;
+  background: url(assets/socials.png) no-repeat;
   font-size: 0;
   margin-right: 5px;
   -moz-transition: background-position 0.2s linear;
@@ -239,7 +239,7 @@ a:active {
   font: 16px Arial, sans-serif;
   color: #fff;
   margin: 0px;
-  background: url(https://www.penisland.net/files/theme/navbg.gif?825011) no-repeat;
+  background: url(assets/navbg.gif) no-repeat;
   height: 45px;
   width: 980px;
 }
@@ -263,7 +263,7 @@ a:active {
 .mainNav ul {
   margin: 0;
   list-style: none;
-  background: url(https://www.penisland.net/files/theme/bullet-wsite-menu.png?825011) no-repeat -9999px -9999px;
+  background: url(assets/default-bg.jpg) no-repeat -9999px -9999px;
 }
 
 .mainNav li {
@@ -299,7 +299,7 @@ a:active {
   text-decoration: none;
   border: 0 none;
   display: block;
-  background: url(https://www.penisland.net/files/theme/bullet-wsite-menu.png?825011) no-repeat 10px 50%;
+  background: url(assets/default-bg.jpg) no-repeat 10px 50%;
   line-height: 39px;
   padding: 0 0 0 24px;
   width: auto;
@@ -307,7 +307,7 @@ a:active {
 
 #wsite-menus .wsite-menu li a:hover,
 #wsite-menus .wsite-menu li.weebly-nav-current a {
-  background: #00a8ff url(https://www.penisland.net/files/theme/bullet-wsite-menu.png?825011) no-repeat 10px 50%;
+  background: #00a8ff url(assets/default-bg.jpg) no-repeat 10px 50%; /*literally just a neat photo I found online. This isn't weebly anyway, so it doesn't matter.*/
 }
 
 #wsite-menus span.wsite-menu-title {
@@ -319,14 +319,14 @@ a:active {
   position: relative;
   height: 45px;
   width: 980px;
-  background: url(https://www.penisland.net/files/theme/contenttop.jpg?825011) no-repeat;
+  background: url(assets/contenttop.jpg) no-repeat;
 }
 
 .contentbottom {
   position: relative;
   height: 19px;
   width: 980px;
-  background: #cac3b9 url(https://www.penisland.net/files/theme/contentbtm.png?825011) no-repeat;
+  background: #cac3b9 url(assets/contentbtm.png) no-repeat;
 }
 
 #content {
@@ -334,7 +334,7 @@ a:active {
   width: 940px;
   height: auto !important;
   min-height: 400px;
-  background: url(https://www.penisland.net/files/theme/contentbg.gif?825011) repeat-y;
+  background: url(assets/contentbg.gif) repeat-y;
   padding: 10px 20px 20px 20px;
   margin-top: -10px;
 }
@@ -395,7 +395,7 @@ ul#footercontent {
   position: center;
   width: 508px;
   height: 108px;
-  background: url(paldi.png) no-repeat;
+  background: url(assets/paldi.png) no-repeat;
 }
 
 #slider-tall {
