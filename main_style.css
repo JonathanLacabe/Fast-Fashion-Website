@@ -1,0 +1,444 @@
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+body,
+html,
+div.paragraph,
+blockquote,
+fieldset,
+input {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+body,
+html,
+p,
+blockquote,
+fieldset,
+input {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+fieldset {
+  border: 0;
+}
+
+a img {
+  border: 0;
+}
+
+div.paragraph {
+  line-height: 170%;
+  color: #626262;
+  font-size: 13px;
+  padding-bottom: 12px;
+}
+
+p {
+  line-height: 170%;
+  color: #626262;
+  font-size: 13px;
+  padding-bottom: 12px;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #630;
+  margin: 0px 0px 10px 0px;
+}
+
+h2 {
+  font-size: 20px;
+  font-family: arial, sans-serif;
+  font-weight: normal;
+  color: #414141;
+  margin: 10px 0px 5px 0px;
+}
+
+#bottom-content div.paragraph {
+  line-height: 170%;
+  color: #30302f;
+  font-size: 13px;
+  padding-bottom: 12px;
+}
+
+#bottom-content p {
+  line-height: 170%;
+  color: #30302f;
+  font-size: 13px;
+  padding-bottom: 12px;
+}
+
+#bottom-content h2 {
+  font-size: 20px;
+  font-family: arial, sans-serif;
+  font-weight: normal;
+  color: #222222;
+  margin: 10px 0px 5px 0px;
+}
+
+#bottom-content a,
+#bottom-content a:visited {
+  color: #628600;
+  text-decoration: underline;
+}
+
+#bottom-content a:hover {
+  color: #95c228;
+  text-decoration: none;
+}
+
+#bottom-content a:focus,
+#bottom-content a:active {
+  color: #779b1f;
+  text-decoration: underline;
+}
+
+body {
+  font: 12px Arial, sans-serif;
+  color: #646464;
+  height: 100%;
+  background: url(bodybg.jpg) 50% 0;
+}
+
+a,
+a:visited {
+  color: #015a6a;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #45c6ff;
+  text-decoration: none;
+}
+
+a:focus,
+a:active {
+  color: #0292ac;
+  text-decoration: underline;
+}
+
+#wrapper {
+  position: relative;
+  margin: 0pt auto;
+  width: 1132px;
+  height: 100%;
+  background: url(https://www.penisland.net/files/theme/wrapperbg.png?825011) no-repeat;
+}
+
+#container {
+  position: relative;
+  margin: 0pt auto;
+  width: 980px;
+  height: auto;
+}
+
+#header {
+  position: relative;
+  margin: 0pt auto;
+  width: 980px;
+  height: 120px;
+}
+
+#sitename {
+  padding-top: 26px;
+  height: 68px;
+  font-size: 24px;
+  float: left;
+}
+
+#sitename,
+#sitename a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.socials a {
+  margin-top: 61px;
+  float: right;
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  overflow: hidden;
+  text-indent: -9999px;
+  background: url(https://www.penisland.net/files/theme/socials.png?825011) no-repeat;
+  font-size: 0;
+  margin-right: 5px;
+  -moz-transition: background-position 0.2s linear;
+  -webkit-transition: background-position 0.2s linear;
+  transition: background-position 0.2s linear;
+}
+
+.socials .mail {
+  background-position: 0 0;
+}
+
+.socials .face {
+  background-position: -30px 0;
+}
+
+.socials .twit {
+  background-position: -60px 0;
+}
+
+.socials .rssr {
+  background-position: -90px 0;
+}
+
+.socials .mail:hover {
+  background-position: 0 100%;
+}
+
+.socials .face:hover {
+  background-position: -30px 100%;
+}
+
+.socials .twit:hover {
+  background-position: -60px 100%;
+}
+
+.socials .rssr:hover {
+  background-position: -90px 100%;
+}
+
+#header {
+  position: relative;
+  margin: 0pt auto;
+  width: 980px;
+  height: 30px;
+}
+
+.mainNav {
+  position: relative;
+  font: 16px Arial, sans-serif;
+  color: #fff;
+  margin: 0px;
+  background: url(https://www.penisland.net/files/theme/navbg.gif?825011) no-repeat;
+  height: 45px;
+  width: 980px;
+}
+
+.mainNav a {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  height: 65px;
+  line-height: 45px;
+  padding: 0px 35px 0px 44px;
+}
+
+.mainNav a:hover,
+#active a {
+  background-repeat: repeat-x;
+  background-position: 0 100%;
+  background-color: #424242;
+}
+
+.mainNav ul {
+  margin: 0;
+  list-style: none;
+  background: url(https://www.penisland.net/files/theme/bullet-wsite-menu.png?825011) no-repeat -9999px -9999px;
+}
+
+.mainNav li {
+  float: left;
+}
+
+.mainNav ul li.weebly-nav-more {
+  background: none;
+}
+
+#wsite-menus .wsite-menu-wrap {
+  position: absolute;
+  top: 65px;
+  left: 70%;
+  margin: 0px;
+  background-color: #0d0d0d;
+}
+
+#wsite-menus .wsite-menu {
+  margin: 0;
+  list-style: none;
+}
+
+#wsite-menus .wsite-menu li {
+  float: none;
+  clear: none;
+  width: 156px;
+}
+
+#wsite-menus .wsite-menu li a {
+  font: 12px Arial, sans-serif;
+  color: #fff;
+  text-decoration: none;
+  border: 0 none;
+  display: block;
+  background: url(https://www.penisland.net/files/theme/bullet-wsite-menu.png?825011) no-repeat 10px 50%;
+  line-height: 39px;
+  padding: 0 0 0 24px;
+  width: auto;
+}
+
+#wsite-menus .wsite-menu li a:hover,
+#wsite-menus .wsite-menu li.weebly-nav-current a {
+  background: #00a8ff url(https://www.penisland.net/files/theme/bullet-wsite-menu.png?825011) no-repeat 10px 50%;
+}
+
+#wsite-menus span.wsite-menu-title {
+  display: inline;
+  padding: 0;
+}
+
+.contenttop {
+  position: relative;
+  height: 45px;
+  width: 980px;
+  background: url(https://www.penisland.net/files/theme/contenttop.jpg?825011) no-repeat;
+}
+
+.contentbottom {
+  position: relative;
+  height: 19px;
+  width: 980px;
+  background: #cac3b9 url(https://www.penisland.net/files/theme/contentbtm.png?825011) no-repeat;
+}
+
+#content {
+  position: relative;
+  width: 940px;
+  height: auto !important;
+  min-height: 400px;
+  background: url(https://www.penisland.net/files/theme/contentbg.gif?825011) repeat-y;
+  padding: 10px 20px 20px 20px;
+  margin-top: -10px;
+}
+
+#bottom-content {
+  position: relative;
+  width: 940px;
+  height: auto !important;
+  min-height: 50px;
+  background-color: #cac3b9;
+  padding: 10px 20px 30px 20px;
+  border-bottom: 1px solid #16130c;
+}
+
+#footer {
+  position: relative;
+  height: 70px;
+  margin: 0pt auto;
+}
+
+ul#footercontent {
+  position: relative;
+  height: 56px;
+  width: 1132px;
+  text-align: center;
+  color: #666666;
+  padding: 10px 0px 10px 0px;
+  font-size: 12px;
+  list-style: none;
+}
+
+#footer a {
+  color: #4ac8ff;
+  text-decoration: underline;
+}
+
+#footer .weebly-footer a {
+  color: #666;
+}
+
+.sliderContainer {
+  width: 980px;
+  min-height: 200px;
+  max-height: 400px;
+  height: auto !;
+  overflow: hidden;
+}
+
+#slider-short {
+  position: center;
+  width: 980px;
+  height: 200px;
+  margin: 0px;
+  overflow: hidden;
+}
+
+.wsite-header {
+  position: center;
+  width: 508px;
+  height: 108px;
+  background: url(paldi.png) no-repeat;
+}
+
+#slider-tall {
+  position: center;
+  width: 980px;
+  height: 110px;
+  margin: 0px;
+  overflow: hidden;
+}
+
+#slider-home {
+  position: center;
+  width: 980px;
+  height: 250px;
+  margin: 0px;
+  overflow: hidden;
+}
+
+.flash_slider {
+  width: 980px;
+  height: 300px;
+  overflow: hidden;
+  margin-left: 0px;
+}
+
+div.paragraph ul,
+div.paragraph ol {
+  padding-left: 25px !important;
+  margin: 5px 0 !important;
+  overflow: hidden;
+}
+
+div.paragraph li {
+  padding-left: 5px !important;
+  margin: 3px 0 0 !important;
+}
+
+div.paragraph ul,
+div.paragraph ul li {
+  list-style: disc outside !important;
+}
+
+div.paragraph ol,
+div.paragraph ol li {
+  list-style: decimal outside !important;
+}
