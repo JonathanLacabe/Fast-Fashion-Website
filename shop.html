@@ -36,8 +36,7 @@
     Shop
   </h1>
   <script src="script.js"></script>
-
-          <h2><strong><font size="5">Finest Quality Custom Pens</font></strong></h2>
+            <h2><strong><font size="5">Caps</font></strong></h2>
 
           <div><div class="wsite-multicol"><div class='wsite-multicol-table-wrap' style='margin:0 -15px'>
           <table class='wsite-multicol-table'>
@@ -45,8 +44,69 @@
           <tr class='wsite-multicol-tr'>
           <td class='wsite-multicol-col' style='width:50%;padding:0 15px'>
 
-          <div class="paragraph" style="display:block;"><br>add all of the photos of the caps and tshirts. 
-                                                        <br><br>y </div>
+          <div class="paragraph" style="display:block;">
+              
+              <br>Wool: Cost Per Kilo: $8.34 ↑   -   Price per Kilo: $12.13 
+              <br> image of wool cap here
+              
+              <br>Cotton: Cost Per Kilo: $2.18 ↑  -   Price per Kilo: $5.87 
+              <br> image of cotton cap here
+              
+              <br>Polyester: Cost Per Kilo: $1.93 ↓  -   Price per Kilo: $6.01 
+              <br> image of polyester cap here
+              
+              <br>Nylon: Cost Per Kilo: $2.13 ↑  -   Price per Kilo: $5.94 
+              <br> image of nylon cap here
+
+              <br>Rayon: Cost Per Kilo: $4.45 ↓  -   Price per Kilo: $8.23 
+              <br> image of rayon cap here
+
+              <br>Fur: Cost Per Kilo: $25.62 ↓  -  Price per Kilo: $29.71 
+              <br> image of fur cap here
+
+              <br>Silk: Cost Per Kilo: $51.27 ↑  -  Price per Kilo: $55.22 
+              <br> image of silk cap here
+
+              <br>Leather: Cost Per Meter: $56.49 ↑ - Price per Meter:$60.35
+              <br> image of leather cap here
+
+              
+              <h2><strong><font size="5">Shirts</font></strong></h2>
+
+                <br>Wool: Cost Per Kilo: $11.34 ↑   -   Price per Kilo: $12.13 
+                <br> image of wool shirt here
+
+
+                <br>Cotton: Cost Per Kilo: $5.18 ↑  -   Price per Kilo: $5.87 
+                <br> image of cotton shirt here
+
+                <br>Polyester: Cost Per Kilo: $4.93 ↓  -   Price per Kilo: $6.01 
+                <br> image of polyester shirt here
+
+                <br>Nylon: Cost Per Kilo: $5.13 ↑  -   Price per Kilo: $5.94 
+                <br> image of nylon shirt here
+
+                <br>Rayon: Cost Per Kilo: $7.45 ↓  -   Price per Kilo: $8.23 
+                <br> image of rayon shirt here
+
+                <br>Silk: Cost Per Kilo: $54.27 ↑  -  Price per Kilo: $55.22 
+                <br> image of silk shirt here
+
+
+              
+
+             <h2><strong><font size="5">Coats/Jackets</font></strong></h2>
+
+                <br>Fur: Cost Per Kilo: $32.62 ↓  -  Price per Kilo: $29.71 
+                <br> image of fur coat here
+
+                <br>Leather: Cost Per Meter: $63.49 ↑ - Price per Meter:$60.35
+                <br> image of leather jacket here
+
+
+              
+
+          </div>
 
           </td>
 </body>
@@ -62,96 +122,55 @@
 
 
               
-                public void OnPointerEnterWool(){//Wool, Cotton, Polester, Nylon, Rayon, Fur, Silk, Leather
-                    Debug.Log("OnPointerEnter WOOL");//
-                    TheBox.SetBool("hover", true);
-                    if(SceneManager.GetActiveScene().buildIndex == 2){
-                        textComponent.text = "WOOL \nCost Per Kilo: $8.34 ↑   -   Price per Kilo: $12.13 \nConsumer Demand: " + SacredUniversal.WoolCustomerDemand + "% (" + SacredUniversal.WoolCustomerDemandStr + ")";
-                        bottomText.text = "Wool is biodegradable. However, sheep farming produces huge amounts of methane, and cruelty is prevalent.";    
-                    } else if(SceneManager.GetActiveScene().buildIndex == 11){
-                        textComponent.text = "WOOL \nCost Per Kilo: $8.54 ↑   -   Price per Kilo: $12.14 \nConsumer Demand: " + SacredUniversal.WoolCustomerDemand + "% (" + SacredUniversal.WoolCustomerDemandStr + ")";
-                        bottomText.text = "Wool is biodegradable. However, sheep farming produces huge amounts of methane, and cruelty is prevalent.";    
-                    }
-                    Debug.Log("XXXXXXXXXXXXXX```XXXXX~~~~~~X~X~~~~~X~X~X~XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXxx");/*
-                    */
-                }
-                public void OnPointerEnterCotton(){
-                    Debug.Log("OnPointerEnter Cotton");
-                    TheBox.SetBool("hover", true);
-                    if(SceneManager.GetActiveScene().buildIndex == 2){
-                        textComponent.text = "COTTON \nCost Per Kilo: $2.18 ↑  -   Price per Kilo: $5.87 \nConsumer Demand: " + SacredUniversal.CottonCustomerDemand + "% (" + SacredUniversal.CottonCustomerDemandStr + ")";
-                        bottomText.text = "While biodegradable, Cotton is EXTREMELY water intensive and is produced using hazardous chemicals.";//might change?
-                    }else if(SceneManager.GetActiveScene().buildIndex == 11){
-                        textComponent.text = "COTTON \nCost Per Kilo: $2.02 ↓  -   Price per Kilo: $5.91 \nConsumer Demand: " + SacredUniversal.CottonCustomerDemand + "% (" + SacredUniversal.CottonCustomerDemandStr + ")";
-                        bottomText.text = "While biodegradable, Cotton is EXTREMELY water intensive and is produced using hazardous chemicals.";//might change?
-                    }
-                }
-                public void OnPointerEnterPolyester(){
-                    Debug.Log("OnPointerEnter Polyester");
-                    TheBox.SetBool("hover", true);
-                    if(SceneManager.GetActiveScene().buildIndex == 2){
-                        textComponent.text = "POLYESTER \nCost Per Kilo: $1.93 ↓  -   Price per Kilo: $6.01 \nConsumer Demand: " + SacredUniversal.PolyesterCustomerDemand + "% (" + SacredUniversal.PolyesterCustomerDemandStr + ")";
-                        bottomText.text = "A synthetic fiber derived from oil, polyester uses less water, but sheds microplastics with every wash.";
-                    }else if(SceneManager.GetActiveScene().buildIndex == 11){
-                        textComponent.text = "POLYESTER \nCost Per Kilo: $1.78 ↓  -   Price per Kilo: $5.97 \nConsumer Demand: " + SacredUniversal.PolyesterCustomerDemand + "% (" + SacredUniversal.PolyesterCustomerDemandStr + ")";
-                        bottomText.text = "A synthetic fiber derived from oil, polyester uses less water, but sheds microplastics with every wash.";
-                    }
-                }
-                public void OnPointerEnterNylon(){
-                    Debug.Log("OnPointerEnter Nylon");
-                    TheBox.SetBool("hover", true);
-                    if(SceneManager.GetActiveScene().buildIndex == 2){
-                        textComponent.text = "NYLON \nCost Per Kilo: $2.13 ↑  -   Price per Kilo: $5.94 \nConsumer Demand: " + SacredUniversal.NylonCustomerDemand + "% (" + SacredUniversal.NylonCustomerDemandStr + ")";
-                        bottomText.text = "Nylon is a non-biodegradable synthetic fiber derived from oil, producing the greenhouse gas nitrous oxide.";
-                    }else if(SceneManager.GetActiveScene().buildIndex == 11){
-                        textComponent.text = "NYLON \nCost Per Kilo: $2.39 ↑  -   Price per Kilo: $6.03 \nConsumer Demand: " + SacredUniversal.NylonCustomerDemand + "% (" + SacredUniversal.NylonCustomerDemandStr + ")";
-                        bottomText.text = "Nylon is a non-biodegradable synthetic fiber derived from oil, producing the greenhouse gas nitrous oxide.";
-                    }
-                }
-                public void OnPointerEnterRayon(){
-                    Debug.Log("OnPointerEnter Rayon");
-                    TheBox.SetBool("hover", true);
-                    if(SceneManager.GetActiveScene().buildIndex == 2){
-                        textComponent.text = "RAYON (VISCOSE)\nCost Per Kilo: $4.45 ↓  -   Price per Kilo: $8.23 \nConsumer Demand: " + SacredUniversal.RayonCustomerDemand + "% (" + SacredUniversal.RayonCustomerDemandStr + ")";
-                        bottomText.text = "A biodegradable fiber derived from wood pulp, Rayon's chemical-intensive production endangers workers.";
-                    }else if(SceneManager.GetActiveScene().buildIndex == 11){
-                        textComponent.text = "RAYON (VISCOSE)\nCost Per Kilo: $3.99 ↓  -   Price per Kilo: $7.81 \nConsumer Demand: " + SacredUniversal.RayonCustomerDemand + "% (" + SacredUniversal.RayonCustomerDemandStr + ")";
-                        bottomText.text = "A biodegradable fiber derived from wood pulp, Rayon's chemical-intensive production endangers workers.";
-                    }
-                }
-                public void OnPointerEnterFur(){
-                    Debug.Log("OnPointerEnter Fur");
-                    TheBox.SetBool("hover", true);
-                    if(SceneManager.GetActiveScene().buildIndex == 2){
-                        textComponent.text = "FUR \nCost Per Kilo: $25.62 ↓  -  Price per Kilo: $29.71 \nConsumer Demand: " + SacredUniversal.FurCustomerDemand + "% (" + SacredUniversal.FurCustomerDemandStr + ")";
-                        bottomText.text = "Biodegradable, Fur can be renewable with sustainable trapping, but is known for cruelty and pollution.";
-                    }else if(SceneManager.GetActiveScene().buildIndex == 11){
-                        textComponent.text = "FUR \nCost Per Kilo: $26.19 ↑  -  Price per Kilo: $30.09 \nConsumer Demand: " + SacredUniversal.FurCustomerDemand + "% (" + SacredUniversal.FurCustomerDemandStr + ")";
-                        bottomText.text = "Biodegradable, Fur can be renewable with sustainable trapping, but is known for cruelty and pollution.";
-                    }
-                }
-                public void OnPointerEnterSilk(){
-                    Debug.Log("OnPointerEnter Silk");
-                    TheBox.SetBool("hover", true);
-                    if(SceneManager.GetActiveScene().buildIndex == 2){
-                        textComponent.text = "SILK \nCost Per Kilo: $51.27 ↑  -  Price per Kilo: $55.22 \nConsumer Demand: " + SacredUniversal.SilkCustomerDemand + "% (" + SacredUniversal.SilkCustomerDemandStr + ")";
-                        bottomText.text = "Luxurious, Silk is created from silkworms. It uses lots of water and utilizes pollutive chemicals in dying/cleaning.";
-                    }else if(SceneManager.GetActiveScene().buildIndex == 11){
-                        textComponent.text = "SILK \nCost Per Kilo: $55.69 ↑  -  Price per Kilo: $60.53 \nConsumer Demand: " + SacredUniversal.SilkCustomerDemand + "% (" + SacredUniversal.SilkCustomerDemandStr + ")";
-                        bottomText.text = "Luxurious, Silk is created from silkworms. It uses lots of water and utilizes pollutive chemicals in dying/cleaning.";
-                    }
-                }
-                public void OnPointerEnterLeather(){
-                    Debug.Log("OnPointerEnter Leather");
-                    TheBox.SetBool("hover", true);
-                    if(SceneManager.GetActiveScene().buildIndex == 2){
-                        textComponent.text = "LEATHER \nCost Per Meter:$56.49↑-Price per Meter:$60.35\nConsumer Demand: " + SacredUniversal.LeatherCustomerDemand + "% (" + SacredUniversal.LeatherCustomerDemandStr + ")";
-                        bottomText.text = "Though long-lasting, Leather undergoes a polluting dying process, notwithstanding animal cruelty issues.";
-                    }else if(SceneManager.GetActiveScene().buildIndex == 11){
-                        textComponent.text = "LEATHER \nCost Per Meter:$57.82↑-Price per Meter:$61.56\nConsumer Demand: " + SacredUniversal.LeatherCustomerDemand + "% (" + SacredUniversal.LeatherCustomerDemandStr + ")";
-                        bottomText.text = "Though long-lasting, Leather undergoes a polluting dying process, notwithstanding animal cruelty issues.";
-                    }
-                }
-            //Wool, Cotton, Polyester, Nylon, Ray
 
-  -->
+WOOL \nCost Per Kilo: $8.34 ↑   -   Price per Kilo: $12.13 <b>Consumer Demand: " + "Wool is biodegradable. However, sheep farming produces huge amounts of methane, and cruelty is prevalent.";    
+ 
+
+
+                        textComponent.text = "COTTON \nCost Per Kilo: $2.18 ↑  -   Price per Kilo: $5.87 \nConsumer Demand: "
+                        bottomText.text = "While biodegradable, Cotton is EXTREMELY water intensive and is produced using hazardous chemicals."
+
+              
+                        textComponent.text = "POLYESTER \nCost Per Kilo: $1.93 ↓  -   Price per Kilo: $6.01 \nConsumer Demand: " + "A synthetic fiber derived from oil, polyester uses less water, but sheds microplastics with every wash.";
+
+
+
+
+
+
+
+
+
+                        textComponent.text = "NYLON \nCost Per Kilo: $2.13 ↑  -   Price per Kilo: $5.94 \nConsumer Demand: " + 
+              
+                        bottomText.text = "Nylon is a non-biodegradable synthetic fiber derived from oil, producing the greenhouse gas nitrous oxide.";
+
+
+
+              
+                        textComponent.text = "RAYON (VISCOSE)\nCost Per Kilo: $4.45 ↓  -   Price per Kilo: $8.23 \nConsumer Demand: " + 
+              
+                        bottomText.text = "A biodegradable fiber derived from wood pulp, Rayon's chemical-intensive production endangers workers.";
+                  
+              
+                       
+           
+                        textComponent.text = "FUR \nCost Per Kilo: $25.62 ↓  -  Price per Kilo: $29.71 \nConsumer Demand: " 
+                        bottomText.text = "Biodegradable, Fur can be renewable with sustainable trapping, but is known for cruelty and pollution.";
+                  
+
+              
+               
+                        textComponent.text = "SILK \nCost Per Kilo: $51.27 ↑  -  Price per Kilo: $55.22 \nConsumer Demand: " 
+                        bottomText.text = "Luxurious, Silk is created from silkworms. It uses lots of water and utilizes pollutive chemicals in dying/cleaning.";
+                
+
+
+
+              
+                        textComponent.text = "LEATHER \nCost Per Meter:$56.49↑-Price per Meter:$60.35\nConsumer Demand: " + 
+                        bottomText.text = "Though long-lasting, Leather undergoes a polluting dying process, notwithstanding animal cruelty issues.";
+
+
+              
+-->

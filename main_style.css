@@ -398,6 +398,13 @@ ul#footercontent {
   background: url(assets/paldi.png) no-repeat;
 }
 
+.wool {
+  position: left;
+  width: 250px;
+  height: 250px;
+  background: url(assets/products/wool.png) no-repeat;
+}
+
 #slider-tall {
   position: center;
   width: 980px;
