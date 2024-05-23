@@ -52,3 +52,106 @@
 </body>
 
 </html>
+          <!--
+
+              For this one, there will be a lot of information and it will use the
+              information found in the hats and shirts section. The images in the product section of the materials themselves will be in the about us.
+
+
+
+
+
+              
+                public void OnPointerEnterWool(){//Wool, Cotton, Polester, Nylon, Rayon, Fur, Silk, Leather
+                    Debug.Log("OnPointerEnter WOOL");//
+                    TheBox.SetBool("hover", true);
+                    if(SceneManager.GetActiveScene().buildIndex == 2){
+                        textComponent.text = "WOOL \nCost Per Kilo: $8.34 ↑   -   Price per Kilo: $12.13 \nConsumer Demand: " + SacredUniversal.WoolCustomerDemand + "% (" + SacredUniversal.WoolCustomerDemandStr + ")";
+                        bottomText.text = "Wool is biodegradable. However, sheep farming produces huge amounts of methane, and cruelty is prevalent.";    
+                    } else if(SceneManager.GetActiveScene().buildIndex == 11){
+                        textComponent.text = "WOOL \nCost Per Kilo: $8.54 ↑   -   Price per Kilo: $12.14 \nConsumer Demand: " + SacredUniversal.WoolCustomerDemand + "% (" + SacredUniversal.WoolCustomerDemandStr + ")";
+                        bottomText.text = "Wool is biodegradable. However, sheep farming produces huge amounts of methane, and cruelty is prevalent.";    
+                    }
+                    Debug.Log("XXXXXXXXXXXXXX```XXXXX~~~~~~X~X~~~~~X~X~X~XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXxx");/*
+                    */
+                }
+                public void OnPointerEnterCotton(){
+                    Debug.Log("OnPointerEnter Cotton");
+                    TheBox.SetBool("hover", true);
+                    if(SceneManager.GetActiveScene().buildIndex == 2){
+                        textComponent.text = "COTTON \nCost Per Kilo: $2.18 ↑  -   Price per Kilo: $5.87 \nConsumer Demand: " + SacredUniversal.CottonCustomerDemand + "% (" + SacredUniversal.CottonCustomerDemandStr + ")";
+                        bottomText.text = "While biodegradable, Cotton is EXTREMELY water intensive and is produced using hazardous chemicals.";//might change?
+                    }else if(SceneManager.GetActiveScene().buildIndex == 11){
+                        textComponent.text = "COTTON \nCost Per Kilo: $2.02 ↓  -   Price per Kilo: $5.91 \nConsumer Demand: " + SacredUniversal.CottonCustomerDemand + "% (" + SacredUniversal.CottonCustomerDemandStr + ")";
+                        bottomText.text = "While biodegradable, Cotton is EXTREMELY water intensive and is produced using hazardous chemicals.";//might change?
+                    }
+                }
+                public void OnPointerEnterPolyester(){
+                    Debug.Log("OnPointerEnter Polyester");
+                    TheBox.SetBool("hover", true);
+                    if(SceneManager.GetActiveScene().buildIndex == 2){
+                        textComponent.text = "POLYESTER \nCost Per Kilo: $1.93 ↓  -   Price per Kilo: $6.01 \nConsumer Demand: " + SacredUniversal.PolyesterCustomerDemand + "% (" + SacredUniversal.PolyesterCustomerDemandStr + ")";
+                        bottomText.text = "A synthetic fiber derived from oil, polyester uses less water, but sheds microplastics with every wash.";
+                    }else if(SceneManager.GetActiveScene().buildIndex == 11){
+                        textComponent.text = "POLYESTER \nCost Per Kilo: $1.78 ↓  -   Price per Kilo: $5.97 \nConsumer Demand: " + SacredUniversal.PolyesterCustomerDemand + "% (" + SacredUniversal.PolyesterCustomerDemandStr + ")";
+                        bottomText.text = "A synthetic fiber derived from oil, polyester uses less water, but sheds microplastics with every wash.";
+                    }
+                }
+                public void OnPointerEnterNylon(){
+                    Debug.Log("OnPointerEnter Nylon");
+                    TheBox.SetBool("hover", true);
+                    if(SceneManager.GetActiveScene().buildIndex == 2){
+                        textComponent.text = "NYLON \nCost Per Kilo: $2.13 ↑  -   Price per Kilo: $5.94 \nConsumer Demand: " + SacredUniversal.NylonCustomerDemand + "% (" + SacredUniversal.NylonCustomerDemandStr + ")";
+                        bottomText.text = "Nylon is a non-biodegradable synthetic fiber derived from oil, producing the greenhouse gas nitrous oxide.";
+                    }else if(SceneManager.GetActiveScene().buildIndex == 11){
+                        textComponent.text = "NYLON \nCost Per Kilo: $2.39 ↑  -   Price per Kilo: $6.03 \nConsumer Demand: " + SacredUniversal.NylonCustomerDemand + "% (" + SacredUniversal.NylonCustomerDemandStr + ")";
+                        bottomText.text = "Nylon is a non-biodegradable synthetic fiber derived from oil, producing the greenhouse gas nitrous oxide.";
+                    }
+                }
+                public void OnPointerEnterRayon(){
+                    Debug.Log("OnPointerEnter Rayon");
+                    TheBox.SetBool("hover", true);
+                    if(SceneManager.GetActiveScene().buildIndex == 2){
+                        textComponent.text = "RAYON (VISCOSE)\nCost Per Kilo: $4.45 ↓  -   Price per Kilo: $8.23 \nConsumer Demand: " + SacredUniversal.RayonCustomerDemand + "% (" + SacredUniversal.RayonCustomerDemandStr + ")";
+                        bottomText.text = "A biodegradable fiber derived from wood pulp, Rayon's chemical-intensive production endangers workers.";
+                    }else if(SceneManager.GetActiveScene().buildIndex == 11){
+                        textComponent.text = "RAYON (VISCOSE)\nCost Per Kilo: $3.99 ↓  -   Price per Kilo: $7.81 \nConsumer Demand: " + SacredUniversal.RayonCustomerDemand + "% (" + SacredUniversal.RayonCustomerDemandStr + ")";
+                        bottomText.text = "A biodegradable fiber derived from wood pulp, Rayon's chemical-intensive production endangers workers.";
+                    }
+                }
+                public void OnPointerEnterFur(){
+                    Debug.Log("OnPointerEnter Fur");
+                    TheBox.SetBool("hover", true);
+                    if(SceneManager.GetActiveScene().buildIndex == 2){
+                        textComponent.text = "FUR \nCost Per Kilo: $25.62 ↓  -  Price per Kilo: $29.71 \nConsumer Demand: " + SacredUniversal.FurCustomerDemand + "% (" + SacredUniversal.FurCustomerDemandStr + ")";
+                        bottomText.text = "Biodegradable, Fur can be renewable with sustainable trapping, but is known for cruelty and pollution.";
+                    }else if(SceneManager.GetActiveScene().buildIndex == 11){
+                        textComponent.text = "FUR \nCost Per Kilo: $26.19 ↑  -  Price per Kilo: $30.09 \nConsumer Demand: " + SacredUniversal.FurCustomerDemand + "% (" + SacredUniversal.FurCustomerDemandStr + ")";
+                        bottomText.text = "Biodegradable, Fur can be renewable with sustainable trapping, but is known for cruelty and pollution.";
+                    }
+                }
+                public void OnPointerEnterSilk(){
+                    Debug.Log("OnPointerEnter Silk");
+                    TheBox.SetBool("hover", true);
+                    if(SceneManager.GetActiveScene().buildIndex == 2){
+                        textComponent.text = "SILK \nCost Per Kilo: $51.27 ↑  -  Price per Kilo: $55.22 \nConsumer Demand: " + SacredUniversal.SilkCustomerDemand + "% (" + SacredUniversal.SilkCustomerDemandStr + ")";
+                        bottomText.text = "Luxurious, Silk is created from silkworms. It uses lots of water and utilizes pollutive chemicals in dying/cleaning.";
+                    }else if(SceneManager.GetActiveScene().buildIndex == 11){
+                        textComponent.text = "SILK \nCost Per Kilo: $55.69 ↑  -  Price per Kilo: $60.53 \nConsumer Demand: " + SacredUniversal.SilkCustomerDemand + "% (" + SacredUniversal.SilkCustomerDemandStr + ")";
+                        bottomText.text = "Luxurious, Silk is created from silkworms. It uses lots of water and utilizes pollutive chemicals in dying/cleaning.";
+                    }
+                }
+                public void OnPointerEnterLeather(){
+                    Debug.Log("OnPointerEnter Leather");
+                    TheBox.SetBool("hover", true);
+                    if(SceneManager.GetActiveScene().buildIndex == 2){
+                        textComponent.text = "LEATHER \nCost Per Meter:$56.49↑-Price per Meter:$60.35\nConsumer Demand: " + SacredUniversal.LeatherCustomerDemand + "% (" + SacredUniversal.LeatherCustomerDemandStr + ")";
+                        bottomText.text = "Though long-lasting, Leather undergoes a polluting dying process, notwithstanding animal cruelty issues.";
+                    }else if(SceneManager.GetActiveScene().buildIndex == 11){
+                        textComponent.text = "LEATHER \nCost Per Meter:$57.82↑-Price per Meter:$61.56\nConsumer Demand: " + SacredUniversal.LeatherCustomerDemand + "% (" + SacredUniversal.LeatherCustomerDemandStr + ")";
+                        bottomText.text = "Though long-lasting, Leather undergoes a polluting dying process, notwithstanding animal cruelty issues.";
+                    }
+                }
+            //Wool, Cotton, Polyester, Nylon, Ray
+
+  -->
