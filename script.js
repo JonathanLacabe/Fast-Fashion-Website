@@ -4,17 +4,6 @@ window.onload = function() {
   if (!cart) { }
 }
 
-/**
- * {
- *  Name: 
- *  Price:
- *  Quantity: 
- * }
- *
- *
- *
- * 
- */
 function setCart(toAdd) {
   cart.push(toAdd);
   updateCart();
@@ -37,12 +26,12 @@ function addToCart(name, price, article, imagePath) {
   if (!found) {
     setCart([name, price, article, imagePath, 1]);
   }
-  //console.log(`${name} ${article} added to cart with price $${price}.`);
-  console.log("Current cart:");
-  for (let i = 0; i < cart.length; i++) {
-    console.log(`${cart[i][0]} ${cart[i][1]} ${cart[i][2]} ${cart[i][3]} ${cart[i][4]}`);
-  }
-  console.log("");
+  console.log(`${name} ${article} added to cart with price $${price}.`);
+  // console.log("Current cart:");
+  // for (let i = 0; i < cart.length; i++) {
+  //   console.log(`${cart[i][0]} ${cart[i][1]} ${cart[i][2]} ${cart[i][3]} ${cart[i][4]}`);
+  // }
+  // console.log("");
 }
 
 if (document.URL.includes("shop")) {
@@ -105,6 +94,7 @@ if (document.URL.includes("cart")) {
       console.log("Your cart is empty.");
     } else {
       console.log(`Cart: ${cart.join(', ')}`);
+      alert(`Cart: ${cart.join(', ')}`);
     }
   });
 }
