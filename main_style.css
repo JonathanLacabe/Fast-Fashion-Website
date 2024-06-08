@@ -398,6 +398,14 @@ ul#footercontent {
   background: url(assets/paldi.png) no-repeat;
 }
 
+.text-on-the-left {
+  color: red;
+  text-align: left;
+  font-weight: bold;
+  background-color: white;
+  display: inline-block;
+}
+
 .wool {
   position: left;
   width: 250px;
