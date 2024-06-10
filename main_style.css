@@ -399,11 +399,11 @@ ul#footercontent {
 }
 
 .text-on-the-left {
-  color: red;
-  text-align: left;
-  font-weight: bold;
-  background-color: white;
-  display: inline-block;
+  color: red; 
+  text-align: left; 
+  font-weight: bold; 
+  background-color: white; 
+  display: inline-block; 
 }
 
 .wool {
